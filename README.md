@@ -10,7 +10,7 @@ Do you know which universe this historical figure belongs to?
 > ![](Files/1.png)
 - Và ngay sau kết thúc của file .jpg mình nhận thấy dấu hiệu của file .zip 
 - Một tệp .zip bình thường sẽ bắt đầu với ```50 4B 03 04``` phù hợp với số null bytes như trong hình trên. Hay nói cách khác đây là các null bytes giữ chỗ cho các header bytes của .zip
-- Vùa nãy mình tìm thấy 2 phần kết thúc file của .jpg => có thể sau file zip này sẽ có 1 file jpg khác nữa.
+- Vừa nãy mình tìm thấy 2 phần kết thúc file của .jpg => có thể sau file zip này sẽ có 1 file jpg khác nữa.
 - Đến với phần kết thúc của file zip nó sẽ nằm sau ```50 4B 05 06 ```
 > ![](Files/2.png)
 - Mình tìm đến các bytes này và xuất hiện sau ```50 4B 05 06 ``` có rất nhiều null bytes.
