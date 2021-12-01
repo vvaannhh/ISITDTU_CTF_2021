@@ -8,7 +8,7 @@ Do you know which universe this historical figure belongs to?
 - Sử dụng HxD để xem hex data của bức ảnh.
 - File .jpg kết thúc với  ```FF D9```. Lần theo đó mình tìm được 2 kết quả như vậy.
 > ![](Files/1.png)
-- Và ngay sau kết thúc của file .jpg mình nhận thấy đấ hiệu của file .zip 
+- Và ngay sau kết thúc của file .jpg mình nhận thấy dấu hiệu của file .zip 
 - Một tệp .zip bình thường sẽ bắt đầu với ```50 4B 03 04``` phù hợp với số null bytes như trong hình trên. Hay nói cách khác đây là các null bytes giữ chỗ cho các header bytes của .zip
 - Vùa nãy mình tìm thấy 2 phần kết thúc file của .jpg => có thể sau file zip này sẽ có 1 file jpg khác nữa.
 - Đến với phần kết thúc của file zip nó sẽ nằm sau ```50 4B 05 06 ```
