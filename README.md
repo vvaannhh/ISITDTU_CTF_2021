@@ -35,7 +35,7 @@ Do you know which universe this historical figure belongs to?
 - Mình đã thử tăng chiều cao ảnh lên 400 ```01 5E``` => ```01 90``` và 1 dòng chữ xuất hiện.
 > ![](Files/1.jpg)
 - Mình đã thử giải nén file zip với những từ trong bức ảnh nhưng kết quả vẫn = 0.
-- Đối với bức ảnh mình cũng đã thử chỉnh kích thước như trên nhưng không có dòng chữ nào ở đây cả.
+- Đối với bức ảnh thứ 2 mình cũng đã thử chỉnh kích thước như trên nhưng không có dòng chữ nào ở đây cả.
 - Mình đã nghĩ đến những thứ cần có password để mở và có 1 thứ khác là ```steghide```.
 - Có thể có gì đó được dấu trong bức ảnh thứ 2 bằng steghide và password là từ nào đó trong bức ảnh thứ 1
 - Sau vài lần thử thì mình đã extract được 1 file [S3cr3t.txt](Files/S3cr3t.txt) với nội dung: ```FG0!!!```
