@@ -15,7 +15,7 @@ Do you know which universe this historical figure belongs to?
 > ![](Files/2.png)
 - Mình tìm đến các bytes này và xuất hiện sau ```50 4B 05 06 ``` có rất nhiều null bytes.
 > ![](Files/3.png)
-- Nghi ngờ về điều này mình đã mở file jpg đầu tiên tìm đã được mình tách ra xem các bytes đầu của bức ảnh này và có thể thấy nó có khá nhiều điểm tương đồng.
+- Nghi ngờ về điều này mình đã mở file jpg đầu tiên đã được mình tách ra xem các bytes đầu của bức ảnh này và có thể thấy nó có khá nhiều điểm tương đồng.
 > ![](Files/4.png)
 - Từ đó => 10 null bytes trước phần bôi đen trong ```Anime.jpg``` là vị trí giữ chỗ cho 10 bytes đầu tiên của bức ảnh.
 - Tách từ 10 null bytes cho đến ```FF D9``` và thay ```00 00 00 00 00 00 00 00 00 ``` -> ```FF D8 FF E1 00 10 4A 46 49 46``` và mình đã có được bức ảnh thứ 2.
