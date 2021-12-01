@@ -1,5 +1,5 @@
 # WATASI WA...?
-> Do you know which universe this historical figure belongs to?
+Do you know which universe this historical figure belongs to?
 > ![](Files/Anime.jpg)
 ### Solution
 #### Part 1:
